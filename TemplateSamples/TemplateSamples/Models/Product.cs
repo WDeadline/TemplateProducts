@@ -5,10 +5,16 @@ using System.Threading.Tasks;
 
 namespace TemplateSamples.Models
 {
-    public class Action
+    public class Product
     {
         public long Id { get; set; }
 
         public string Name { get; set; }
+
+        public string Code { get; set; }
+
+        public string Description { get; set; }
+
+
     }
 }

@@ -5,10 +5,14 @@ using System.Threading.Tasks;
 
 namespace TemplateSamples.Models
 {
-    public class Action
+    public class Material
     {
         public long Id { get; set; }
 
         public string Name { get; set; }
+
+        public int Quantity { get; set; }
+
+        public Enum Unit { get; set; }
     }
 }

@@ -5,10 +5,14 @@ using System.Threading.Tasks;
 
 namespace TemplateSamples.Models
 {
-    public class Action
+    public class ImportBill
     {
         public long Id { get; set; }
 
-        public string Name { get; set; }
+        public long ProducerId { get; set; }
+
+        public DateTime DateOfPayment { get; set; }
+
+
     }
 }
